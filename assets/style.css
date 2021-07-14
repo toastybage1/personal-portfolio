@@ -10,8 +10,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* -------- Header --------*/
 header {
-    padding: 40px 35px;
+    padding: 30px 35px;
     background-color: #4682B2;
     display: flex;
     justify-content: space-between;
@@ -28,7 +29,7 @@ header h1 {
 }
 
 header nav{
-    margin: 15px 0;
+    margin: 20px 0;
 }
 header nav ul {
     display: flex;
@@ -46,4 +47,27 @@ header a {
     text-decoration: none;
     color:#024e76;
     text-shadow: 1px 1px 1px rgba(240, 255, 255, .5);
+    font-weight: bolder;
+}
+
+/* ------------- Hero -----------------*/
+.hero {
+    background-image: url("./images/stainedWood-joshua-bartell-6vvIBTvL90A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: right;
+    display: flex;
+    width: auto;
+    height: 400px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color:silver;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px
 }
