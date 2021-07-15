@@ -63,11 +63,38 @@ header a {
 }
 
 .hero h2 {
-    font-size: 40px;
+    font-size: 45px;
     color:silver;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 20px
+    padding: 20px;
+}
+
+/* ----------- Section Headers ------------*/
+.section-header {
+    font-size: 28px;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+/* ------------ About Me ------------- */
+.about-me {
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-me article {
+    border-bottom: 1px solid #024e76;
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+
+/* --------------- #section-header -------------- */
+#section-content {
+     
 }
