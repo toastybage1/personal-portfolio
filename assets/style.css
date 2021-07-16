@@ -90,7 +90,7 @@ header nav ul li a:hover {
 /* ------------ About Me ------------- */
 .about-me {
     padding: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -180,7 +180,13 @@ header nav ul li a:hover {
 .contacts {
     border-right: 2px solid #024e76;
     display:block;
-    padding: 120px 75px 0px 75px
+    padding: 100px 75px 0px 75px;
+    font-size: 24px;
+}
+
+.contacts h4 {
+    font-size: 32px;
+}
 }
 
 .contact-selector {
